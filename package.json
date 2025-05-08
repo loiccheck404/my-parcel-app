@@ -1,13 +1,12 @@
 {
-  "name": "parcel-vanilla-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "my-project",
   "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.14.4"
+    "parcel": "latest"
   }
 }
